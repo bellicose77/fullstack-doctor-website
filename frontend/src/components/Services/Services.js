@@ -2,6 +2,7 @@ import React from 'react';
 import floried from '../../assets/images/fluoride.png'
 import cavity from '../../assets/images/cavity.png'
 import teeth from '../../assets/images/whitening.png'
+import Service from '../Service/Service';
 
 const Services = () => {
     const services = [
@@ -32,7 +33,15 @@ const Services = () => {
                 <h2 className='text-4xl'>Services We Provide</h2>
             </div>
             <div>
+        
+                {
+                    services.map(service => <Service 
+                        key={service._id} 
+                        service={service}
+                        >
 
+                        </Service>)
+                }
             </div>
         </div>
     );
