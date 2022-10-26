@@ -6,7 +6,7 @@ import Services from '../../components/Services/Services';
 
 const Home = () => {
     return (
-        <div>
+        <div className='px-12'>
             <Navbar/>
             <Banner/>
             <Info/>
