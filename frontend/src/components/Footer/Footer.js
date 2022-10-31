@@ -3,14 +3,15 @@ import footer from '../../assets/images/footer.png'
 
 const Footer = () => {
     return (
-        <footer class="footer p-10 " 
+        <footer class=" p-10 " 
           style={{background:`url(${footer})`,
           backgroundSize: 'cover'
         }
                 
     }
         >
-      <div>
+ <div className='footer'>
+    <div>
     <span class="footer-title">Services</span> 
     <a class="link link-hover">Branding</a>
     <a class="link link-hover">Design</a>
@@ -30,6 +31,11 @@ const Footer = () => {
     <a class="link link-hover">Privacy policy</a>
     <a class="link link-hover">Cookie policy</a>
   </div>
+</div>
+  <div className='mt-5 text-center'>
+    <p>Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
+  </div>
+   
 </footer>
     );
 };
