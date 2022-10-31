@@ -3,7 +3,7 @@ import quote from '../../assets/icons/quote.svg'
 
 const Testimonial = () => {
     return (
-        <section>
+        <section className='mt-28'>
             <div className='flex justify-between'>
                 <div>
                     <h4 className='text-xl text-primary font-bold'>Testimonial</h4>
@@ -11,7 +11,7 @@ const Testimonial = () => {
 
                 </div>
                 <div>
-                    <img src={quote}/>
+                    <img src={quote} className='w-24 lg:w-48'/>
 
                 </div>
 
