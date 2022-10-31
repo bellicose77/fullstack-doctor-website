@@ -17,7 +17,7 @@ const MakeAppointment = () => {
                 <h2 className='text-3xl text-white'>Make an Appoinment today</h2>
                 <p>There is a good doctor who can uproot your teeth
                 </p>
-                <PrimaryButton></PrimaryButton>
+                <PrimaryButton>get starts</PrimaryButton>
 
             </div>
             

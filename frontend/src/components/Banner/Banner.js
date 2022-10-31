@@ -11,7 +11,7 @@ const Banner = () => {
       <h1 class="text-5xl font-bold">Your New Smile Starts</h1>
       <p class="py-6"> lorem10
       </p>
-      <PrimaryButton></PrimaryButton>
+      <PrimaryButton>Get started</PrimaryButton>
       
     </div>
   </div>

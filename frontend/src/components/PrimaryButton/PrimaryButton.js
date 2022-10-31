@@ -1,9 +1,9 @@
 import React from 'react';
 
-const PrimaryButton = () => {
+const PrimaryButton = ({children}) => {
     return (
         <div>
-        <button class="btn btn-primary">Get Started</button>
+        <button class="btn btn-primary">{children}</button>
         </div>
     );
 };
