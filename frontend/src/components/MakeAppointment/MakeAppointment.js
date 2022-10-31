@@ -9,7 +9,7 @@ const MakeAppointment = () => {
         
         >
             <div className='flex-1'>
-                <img src={doctor}/>
+                <img className='mt-[-110px]' src={doctor}/>
 
             </div>
             <div className='flex-1'>
