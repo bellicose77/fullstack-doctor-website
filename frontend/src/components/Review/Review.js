@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Review = () => {
+const Review = ({review}) => {
+    const {name,location,desc,img}=review
     return (
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card lg:max-w-lg bg-base-100 shadow-xl">
             <div class="card-body">
-                 <p>If a dog chews shoes whose shoes does he choose?</p>
+                 <p>{desc}</p>
               <div class="card-actions justify-end">
                 
              </div>
