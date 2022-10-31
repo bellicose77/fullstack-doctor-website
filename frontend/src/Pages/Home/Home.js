@@ -4,6 +4,7 @@ import Info from '../../components/Info/Info';
 import MakeAppointment from '../../components/MakeAppointment/MakeAppointment';
 import Navbar from '../../components/Navbar/Navbar';
 import Services from '../../components/Services/Services';
+import Testimonial from '../../components/Testimonial/Testimonial';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Info/>
             <Services/>
             <MakeAppointment/>
+            <Testimonial/>
         </div>
     );
 };

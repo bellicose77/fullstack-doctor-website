@@ -5,7 +5,7 @@ const Testimonial = () => {
         <section>
             <div>
                 <div>
-                    <h4>Testimonial</h4>
+                    <h4 className='text-xl text-primary font-bold'>Testimonial</h4>
                     <h2>What our patients says</h2>
 
                 </div>
