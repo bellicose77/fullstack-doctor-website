@@ -11,9 +11,12 @@ const AppointBanner = () => {
             <div class="hero-content flex-col lg:flex-row-reverse">
                <img src={chair} class="max-w-sm rounded-lg shadow-2xl" />
                 <div>
-                    <DayPicker/>
+                    <DayPicker  mode="single" onSelect={setDate}/>
+                    <p>you selected the date : {format(date, 'PP')}.</p>
                 </div>
+              
             </div>
+           
         </div>
     );
 };
