@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import AppointBanner from '../../components/AppointBanner/AppointBanner';
 import AvailAppointment from '../../components/AvailAppointment/AvailAppointment';
 import Navbar from '../../components/Navbar/Navbar';
+import { format } from 'date-fns';
 
 const Appoinment = () => {
     const [date,setDate] = useState(new Date())
@@ -9,7 +10,7 @@ const Appoinment = () => {
         <div>
             <Navbar/>
             <AppointBanner date={date} setDate={setDate}/>
-            <AvailAppointment/>
+            <AvailAppointment date={date}/>
             
         </div>
     );

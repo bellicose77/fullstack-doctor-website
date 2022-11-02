@@ -2,7 +2,7 @@ import React from 'react';
 import chair from '../../assets/images/chair.png';
 import { DayPicker } from 'react-day-picker';
 import 'react-day-picker/dist/style.css';
-import { format } from 'date-fns';
+
 
 const AppointBanner = ({date,setDate}) => {
     
@@ -12,7 +12,6 @@ const AppointBanner = ({date,setDate}) => {
                <img src={chair} class="max-w-sm rounded-lg shadow-2xl" />
                 <div>
                     <DayPicker  mode="single" onSelect={setDate}/>
-                    <p>you selected the date : {format(date, 'PP')}.</p>
                 </div>
               
             </div>
