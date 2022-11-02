@@ -5,7 +5,7 @@ const AvailAppointment = (props) => {
     const date = props.date;
     return (
         <div>
-            <h4>Available Appointments on :{format(date, 'PP')}</h4>
+            <h4 className='text-xl text-primary text-center'>Available Appointments on : {format(date, 'PP')}</h4>
         </div>
     );
 };
