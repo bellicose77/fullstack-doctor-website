@@ -8,7 +8,7 @@ const AppointmentSlot = ({solt}) => {
           <h2 class="card-title">{name}</h2>
           <p>{slots.length} {slots.length ? "spaces":"space"} avaiable</p>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary">Buy Now</button>
+            <button disabled={slots.length===0} class="btn btn-primary">Buy Now</button>
           </div>
         </div>
       </div>
