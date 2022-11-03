@@ -4,6 +4,7 @@ import AppointmentSlot from '../AppointmentSlot/AppointmentSlot';
 
 const AvailAppointment = ({date}) => {
     const [fakeDatas,setFakeDatas] = useState([]);
+    const[modal,setModal] = useState(null)
     useEffect(()=>{
         fetch('services.json')
         .then(res=>res.json())
