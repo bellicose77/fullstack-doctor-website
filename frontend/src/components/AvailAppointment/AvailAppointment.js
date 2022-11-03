@@ -3,11 +3,11 @@ import { format } from 'date-fns';
 import AppointmentSlot from '../AppointmentSlot/AppointmentSlot';
 
 const AvailAppointment = ({date}) => {
-    const [fakeDatas,setFakeData] = useState([]);
+    const [fakeDatas,setFakeDatas] = useState([]);
     useEffect(()=>{
         fetch('services.json')
         .then(res=>res.json())
-        .then(data=>setFakeData(data))
+        .then(data=>setFakeDatas(data))
     },[]);
     console.log(fakeDatas)
     return (
