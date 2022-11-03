@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AppointmentSlot = ({solt}) => {
+const AppointmentSlot = ({solt,setTreatment}) => {
     const {name,slots} = solt;
     return (
         <div class="card w-96 bg-base-100 shadow-xl">
@@ -14,7 +14,7 @@ const AppointmentSlot = ({solt}) => {
         <p>{slots.length}  {slots.length > 1 ? "available spaces": "available space"}</p>
           <div class="card-actions justify-center">
             <button disabled={slots.length===0} class="btn btn-primary">Booked Appointment</button>
-            <label for="my-modal-6" class="btn">open modal</label>
+            <label onClick={()=>setTreatment(solt)} for="booking-modal" class="btn">open modal</label>
           </div>
         </div>
       </div>
