@@ -11,6 +11,10 @@ const BookModal = ({treatment}) => {
                <h3 class="font-bold text-lg text-secondary">booking name:{name}</h3>
                <form>
                <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+               <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+               <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+               <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+               <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
                </form>
                <div class="modal-action">
                
