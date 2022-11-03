@@ -13,7 +13,7 @@ const AvailAppointment = ({date}) => {
     return (
         <div>
             <h4 className='text-xl text-primary text-center'>Available Appointments on : {format(date, 'PP')}</h4>
-            <div>
+            <div className='grid grid-cols-3 gap-5'>
                 {
                     fakeDatas.map(solt=><AppointmentSlot 
                         key={solt._id}
